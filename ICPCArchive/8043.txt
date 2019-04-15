@@ -1,8 +1,0 @@
-Email: yoav.danieli@campus.technion.ac.il
-Full Name: Yoav Danieli
-
-Solution:
-binary search over the possible values of c. the eqution to check was the sum of Di/(si+c) againts t.
-the left limit was the lowest amount c can b so theere will be no negetive speeds.
-the right limit was 1e9.
-which makes the complexity ~O(1e9).

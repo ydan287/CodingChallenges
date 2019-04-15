@@ -1,6 +1,0 @@
-
-Description:
-we reduced the problem to a maximum flow problem y adding source and taget vertexes, we also 
-duplicated each "book owner". if the max flow is the same as the owners we return tes else no.
-complexity O(n^2 * m)
-
