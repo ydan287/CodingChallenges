@@ -1,0 +1,6 @@
+Email: 		yoav.danieli@campus.technion.ac.il
+Full Name:	Yoav Danieli
+
+Description:
+the main problem was thinking about the formula to use. no special alggorithms...
+complexity O(n).

@@ -1,0 +1,9 @@
+Email: 		yoav.danieli@campus.technion.ac.il
+Full Name:	Yoav Danieli
+
+Description:
+we used weap algorithm. events are 2D point in relation to marias values.
+the events are sorted by angle from marias point.
+we calculate the best and worst cases for maria. many sesetive cases...
+comlexity O(n)
+

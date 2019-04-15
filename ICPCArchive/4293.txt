@@ -1,0 +1,4 @@
+Description:
+calculate the min distance betwin any 2 points on the inner and outer circle.
+complexity O(n^2)
+
