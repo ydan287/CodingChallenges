@@ -1,0 +1,5 @@
+Email: yoav.danieli@campus.technion.ac.il
+Full Name: Yoav danieli
+
+Solution: calculate the sum of the pieces's surface and devide it by the Width.
+complexity O(n).

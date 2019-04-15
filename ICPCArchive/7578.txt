@@ -1,0 +1,6 @@
+Email: 		yoav.danieli@campus.technion.ac.il
+Full Name:	Yoav Danieli
+
+Description:
+there is a uniq represantation of binari trees printing the tree pre order and for null pointers (in leafs for example) printing "$".
+comlexity: O(n*k)

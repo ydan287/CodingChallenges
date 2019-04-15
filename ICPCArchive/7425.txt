@@ -1,0 +1,8 @@
+Email: 		yoav.danieli@campus.technion.ac.il
+Full Name:	Yoav Danieli
+
+Description:
+we generate a graph in such a way that if there is an intersection bewtiwn pipes from well i and well j
+there will be an edge betwin the two. so we take the graph and we check if it is bipartitate and if so we return possible if not we return impossible.
+complexity O(n+m);
+

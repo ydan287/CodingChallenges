@@ -1,0 +1,9 @@
+Email: yoav.danieli@campus.technion.ac.il
+Full Name: Yoav Danieli
+
+Solution:
+first convert the problem into a graph so we can determine the true cost and prestiege of every dish.
+i used hash table (unordered map<string,int>) for that.
+topological sort on the graph. O(|dishes|+|N|)
+BFS on the sorted dishes to update the true cost and preistiege.
+solve knapsack problem using a table[B+1][|dishes|] and calculating bottom up.

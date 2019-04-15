@@ -1,0 +1,15 @@
+Give M Boundary pixels and n pixles missing (Hole in the picture) how can you calculate the IDW (Inverse Distance Weight) of the missing pixeles
+
+1 - naive approach
+1 - if there are m boundary pixels and n hole pixels then the trivial complexity is O(n*m).
+	since m is bounded by n. m <= 4n or m <= 8n depending on the connectivity type then the complexity is O(n^2)
+
+2 - approximate approach
+2 - the algorithm iteartes each hole pixel and calculate his value only by his neighbors.
+	since there are at most 8 neghbors the comlexity is O(n). we can do this itetation k more time to increase accuricy
+	and the complexity will then be O(k*n)
+
+3 - exact solution in nlogn	
+3 - This is a really intresting readle which i havnt manage to solve. iv'e read some articles but they all find an approximation
+	via nearest neighbor search using KD trees. my guess is that the special structure of a bounded hole in a cartezian greed,
+	makes it possible to calculate distances in a batch. i did not work out the math so i dont know if im right. ill be happy to find out:).
