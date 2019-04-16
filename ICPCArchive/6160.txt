@@ -1,0 +1,9 @@
+Email: yoav.danieli@campus.technion.ac.il
+Full Name: Yoav Danieli
+
+Solution:
+brute force.
+to save the numbers given i used hashtable with numbers as keys ans number of occurences as values.
+each iteration i calculated every possible operation on any two possible numbers saving the best result and finishing if i found the target.
+complexity 6!*4^5.
+

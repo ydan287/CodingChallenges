@@ -1,0 +1,7 @@
+Email: yoav.danieli@campus.technion.ac.il
+Full Name: Yoav Danieli
+
+Solution:
+the key idea was to compute 2 varibale equations. I did that Using Kramer Formula.
+another minor problem was to scan unknown number of input number each test. did that by scaning ine after line using getline(cin,string).
+complexity O(n) where n is the distance to the waterful.
