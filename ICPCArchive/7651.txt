@@ -1,7 +1,0 @@
-Email: 		yoav.danieli@campus.technion.ac.il
-Full Name:	Yoav Danieli
-
-Description:
-we used dynamic programming with memoization. the answer had to calculate for each H D the multinomial (H-1 choode x1,x2,,,xd)
-we used the recursive eqquation for multinomial and avoided symetry.
-complexity: hard to tell since it is calculating the multinomial and generating multinomia both recursive functions.

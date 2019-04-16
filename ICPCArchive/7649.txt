@@ -1,6 +1,0 @@
-Email: 		yoav.danieli@campus.technion.ac.il
-Full Name:	Yoav Danieli
-
-Description:
-starting with the leafs we maintained a segment tree (by rank of employee). and updating the segment tree when going up in the tree.
-comlexity(nlogn).
