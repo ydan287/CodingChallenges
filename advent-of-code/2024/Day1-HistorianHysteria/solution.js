@@ -1,7 +1,7 @@
 const fs = require('fs');
 const readline = require('readline');
 
-function solution(leftList, rightList) {
+function part1(leftList, rightList) {
 
     leftList = leftList.sort();
     rightList = rightList.sort();
@@ -19,6 +19,27 @@ function solution(leftList, rightList) {
 
 }
 
+function part2(leftList, rightList) {
+    let hist = {};
+    rightList.forEach((num) => {
+        if (hist[num]) {
+            hist[num]++;
+        } else {
+            hist[num] = 1;
+        }
+    });
+
+    let sum = 0;
+    leftList.forEach((num) => {
+        if (hist[num]) {
+          sum += num * hist[num];
+        } 
+    });
+    console.log("🚀 ~ part2 ~ sum:", sum)
+    return sum;
+}
+    
+
 async function processLineByLine() {
     const fileStream = fs.createReadStream('input.txt');
   
@@ -33,7 +54,7 @@ async function processLineByLine() {
         leftList.push(parseInt(left));
         rightList.push(parseInt(right));
     }
-    return solution(leftList, rightList);
+    return part2(leftList, rightList);
   }
 
   
