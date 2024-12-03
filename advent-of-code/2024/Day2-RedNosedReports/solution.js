@@ -4,30 +4,6 @@ const readline = require('readline');
 const MIN_JUMP = 1;
 const MAX_JUMP = 3;
 
-function isSafeReportasd(report) {
-    if (report[0] > report[1]) {
-        for (let i = 0; i < report.length - 1; i++) {
-            const current = report[i];
-            const next = report[i + 1];
-            if (current - next < MIN_JUMP || current - next > MAX_JUMP) {
-                return false;
-            }
-        }
-    } else {
-        for (let i = 0; i < report.length - 1; i++) {
-            const current = report[i];
-            const next = report[i + 1];
-            if (current - next > -MIN_JUMP || current - next < -MAX_JUMP) {
-                return false;
-            }
-        }
-    }
-    return true;
-    
-}
-
-
-
 function checkDiff(report) {
     for (let i = 0; i < report.length - 1; i++) {
         const current = report[i];
